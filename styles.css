@@ -1,0 +1,27 @@
+.container{
+    max-width: 900px;
+    height: 96vh;
+    border: solid 2px;
+    margin: 0 auto;
+    background-image: url("./halloween.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.tool-holder{
+
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px;
+    
+    
+    
+}
