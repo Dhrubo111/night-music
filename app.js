@@ -61,7 +61,7 @@ let highTwoAudio = document.querySelector(".high-two")
 
 rimshotBtn.addEventListener(
     "click" , ()=>{
-        rimShotAudio.pause()
+        rimShotAudio.currentTime = 0 
         rimShotAudio.play()
     }
 )
@@ -69,14 +69,14 @@ rimshotBtn.addEventListener(
 
 crashOneBtn.addEventListener(
     "click" , ()=>{
-        crashOneAudio.pause()
+        crashOneAudio.currentTime = 0 
         crashOneAudio.play()
     }
 )
 
 crashTwoBtn.addEventListener(
     "click" , ()=>{
-        crashTwoAudio.pause()
+        crashTwoAudio.currentTime = 0 
         crashTwoAudio.play()
     }
 )
@@ -84,7 +84,7 @@ crashTwoBtn.addEventListener(
 
 floorBtn.addEventListener(
     "click" , ()=>{
-        floorAudio.pause()
+        floorAudio.currentTime = 0 
         floorAudio.play()
     }
 )
@@ -93,7 +93,7 @@ floorBtn.addEventListener(
 highTomBtn.addEventListener(
     "click" , ()=>{
 
-        highTomAudio.pause()
+        highTomAudio.currentTime = 0 
         highTomAudio.play()
     }
 )
@@ -101,7 +101,7 @@ highTomBtn.addEventListener(
 
 midTomBtn.addEventListener(
     "click" , ()=>{
-        midTomAudio.pause()
+        midTomAudio.currentTime = 0 
         midTomAudio.play()
     }
 )
@@ -109,7 +109,7 @@ midTomBtn.addEventListener(
 lowTomBtn.addEventListener(
     "click" , ()=>{
 
-        lowTomAudio.pause()
+        lowTomAudio.currentTime = 0 
         lowTomAudio.play()
     }
 )
@@ -118,7 +118,7 @@ lowTomBtn.addEventListener(
 kickOneBtn.addEventListener(
     "click" , ()=>{
 
-        kickAudio.pause()
+        kickAudio.currentTime = 0 
 
         kickAudio.play()
     }
@@ -127,7 +127,7 @@ kickOneBtn.addEventListener(
 kickTowBtn.addEventListener(
     "click" , ()=>{
 
-        kickAudio.pause()
+        kickAudio.currentTime = 0 
 
         kickAudio.play()
     }
@@ -136,7 +136,7 @@ kickTowBtn.addEventListener(
 snareOneBtn.addEventListener(
     "click" , ()=>{
 
-        snareAudio.pause()
+        snareAudio.currentTime = 0 
 
         snareAudio.play()
 
@@ -148,7 +148,7 @@ snareOneBtn.addEventListener(
 rideOneBtn.addEventListener(
     "click" , ()=>{
 
-        rideOneAudio.pause()
+        rideOneAudio.currentTime = 0 
         rideOneAudio.play()
     }
 )
@@ -157,7 +157,7 @@ rideOneBtn.addEventListener(
 rideTwoBtn.addEventListener(
     "click" , ()=>{
 
-        rideTwoAudio.pause()
+        rideTwoAudio.currentTime = 0 
 
         rideTwoAudio.play()
     }
@@ -165,7 +165,7 @@ rideTwoBtn.addEventListener(
 
 splashOneBtn.addEventListener(
     "click" , ()=>{
-        splashOneAudio.pause()
+        splashOneAudio.currentTime = 0 
         splashOneAudio.play()
     }
 )
@@ -173,7 +173,7 @@ splashOneBtn.addEventListener(
 
 highOneBtn.addEventListener(
     "click" , ()=>{
-        highOneAudio.pause()
+        highOneAudio.currentTime = 0
 
         highOneAudio.play()
     }
@@ -183,7 +183,7 @@ highOneBtn.addEventListener(
 highTwoBtn.addEventListener(
     "click" , ()=>{
 
-        highTwoAudio.pause()
+        highTwoAudio.currentTime = 0 
         highTomAudio.play() 
     }
 )
